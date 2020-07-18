@@ -35,11 +35,11 @@ p {
 }
 
 a {
-  color: #248aaa;
+  color: #2098d1;
 }
 
 a:hover {
-  color: #207089;
+  color: #248aaa;
 }
 
 .btn-dark {
@@ -155,9 +155,23 @@ img.right{
 }
 
 .my-card-sub-title {
-  color: #32614f;
+  color: #d65130;
   font-size: 15pt;
 }
+
+.company-a  {
+  color: #d65130;
+  text-shadow: 2px 2px 8px #ffffff;
+  font-weight: 900;
+}
+
+.company-a:hover {
+  color: #b34226;
+  text-shadow: 2px 2px 8px #ffffff;
+  font-weight: 900;
+}
+
+
 
 .my-card-authors {
   /* color: #0038f0cc; */
