@@ -1,9 +1,10 @@
 .home {
-  height: 100vh;
-  padding: 0;
+  height: 65vh;
+  padding: 0px;
   margin: 0;
   color: #f9fafc;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .background {
@@ -14,14 +15,15 @@
   background-attachment: fixed;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   background-size: cover;
+  /* box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3); */
 }
 
 .content {
   position: relative;
-  top: -65%;
+  top: -75%;
   height: 60%;
 }
 
