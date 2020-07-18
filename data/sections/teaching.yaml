@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Teaching
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your 
+courses:
+- name: "[Course] DeepFMI 2020"
+  logo: images/news/fmi.png
+  role: "Lecturer/Tutor"
+  timeline: "February - April 2020"
+  url: "https://bit-ml.github.io/teaching/deep-fmi-2020/"
+  summary: "Deep Learning Course at University of Bucharest - the second edition. Every member of the team prepares a lecture or few out of 10 and mentors several students for their final projects."
+
+- name: "[Training] DeepBit4PM 2020"
+  logo: images/news/bit.png
+  role: Lecturer
+  timeline: "January 2020"
+  url: "https://bit-ml.github.io/teaching/deep-bit-pm-2020/"
+  summary: "Intro to Deep Learning for Bitdefender Product Managers (2 lectures)."
+
+- name: "[Training] DeepBit 2019"
+  logo: images/news/bit.png
+  role: "Lecturer/Tutor"
+  timeline: "May - July 2019"
+  url: "https://bit-ml.github.io/teaching/deep-bit-2019/"
+  summary: "Intro to Deep Learning for Bitdefender Engineers. Every member of the team prepares a lecture or few out of 12 and mentors several colleagues for their projects."
+
+- name: "[Course] DeepFMI 2019"
+  logo: images/news/fmi.png
+  role: "Lecturer/Tutor"
+  timeline: "February - April 2019"
+  url: "https://bit-ml.github.io/teaching/deep-fmi-2019/"
+  summary: "Deep Learning Course at University of Bucharest. Every member of the team prepares a lecture or few out of 10 and mentors several students for their final projects."

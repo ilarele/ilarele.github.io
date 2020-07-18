@@ -1,0 +1,56 @@
+<!-- <div class="container-fluid home col-12 col-lg-6" id="home">
+  <div class="background container-fluid"
+    style="background-image: url('{{ if site.Params.background }}{{ site.Params.background }}{{ else }}/assets/images/default-background.jpg{{ end }}');">
+  </div>
+  <div class="container content text-center">
+    <img
+      src="{{ if site.Params.author.image }}{{ site.Params.author.image }}{{ else }}/assets/images/default-avatar.png{{ end }}"
+      class="rounded-circle mx-auto d-block" />
+    <h1 class=" greeting"> {{ site.Params.author.name }}
+    </h1>
+    <h5 class="greeting p-1">
+      {{ .designation }}
+      {{ if .company }}
+      at <a href="{{ .company.url }}">{{ .company.name }}</a>
+      {{ end }}
+    </h5>
+
+
+    {{ if site.Data.sections }}
+    {{ range first 1 (where (sort site.Data.sections "section.weight") ".section.enable" true) }}
+    <a href="#publications"><i class="arrow bounce fa fa-chevron-down"></i></a>
+    {{ end }}
+    {{ end }}
+    <ul class="social-link d-flex justify-content-center">
+      {{ range .socialLinks }}
+      <li>
+        {{ if eq .name "Email" }}
+        <a href="mailto:{{ .url }}" target="/"><i class="{{ .icon }}"></i></a>
+        {{ else }}
+        <a href="{{ .url }}" target="/"><i class="{{ .icon }}"></i></a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div> -->
+
+
+<div class="container anchor p-md-5 about-section" id="{{ replace (lower .section.name) " " "-" }}">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    <h3 class="p-1">About me</h3>
+
+    <p class="p-1 text-justify">
+      {{ .summary | markdownify }}
+    </p>
+
+
+    <div class="text-container ml-auto">
+
+      {{ if .resume }}
+      <a href="{{ .resume }}" target="#"><button class="btn btn-dark float-right">My
+          Resume</button></a>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+<div class="shadow container-fluid home" id="home">
+
+  <div class="background container-fluid"
+    style="background-image: url('{{ if .Site.Params.background }}{{ .Site.Params.background }}{{ else }}/assets/images/default-background.jpg{{ end }}');">
+  </div>
+
+  <div class="container content text-center">
+    <img
+      src="{{ if .Site.Params.author.image }}{{ .Site.Params.author.image }}{{ else }}/assets/images/default-avatar.png{{ end }}"
+      class="rounded-circle mx-auto d-block img-fluid" />
+    <h1 class="greeting"> {{ site.Params.author.name }} </h1>
+
+    <h5 class="greeting p-1">
+      {{ site.Params.designation }}
+      {{ if site.Params.company }}
+      at <a href="{{ site.Params.company.url }}">{{ site.Params.company.name }}</a>
+      {{ end }}
+    </h5>
+
+
+    <ul class="social-link d-flex justify-content-center">
+      {{ range .Site.Params.socialLinks }}
+      <li>
+        {{ if eq .name "Email" }}
+        <a href="mailto:{{ .url }}" target="/"><i class="{{ .icon }}"></i></a>
+        {{ else }}
+        <a href="{{ .url }}" target="/"><i class="{{ .icon }}"></i></a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+
+    <!-- 
+    {{ if .Site.Data.sections }}
+    {{ range first 1 (where (sort .Site.Data.sections "section.weight") ".section.enable" true) }}
+    <a href="#{{ replace (lower .section.name) " " "-" }}"><i
+        class="arrow bounce fa fa-chevron-down"></i></a>
+    {{ end }}
+    {{ end }} -->
+
+
+  </div>
+
+</div>

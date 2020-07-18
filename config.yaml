@@ -1,0 +1,78 @@
+baseURL:  ilarele.github.io
+languageCode: en-us
+# title: "Elena Burceanu"
+theme: "toha"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Enable Google Analytics
+googleAnalytics: UA-22323348-4
+
+# Enable Disqus forum
+disqusShortname: does-not-exist
+
+# Enable global emoji support
+enableEmoji: false
+
+# Custom parameters
+params:
+  # copyright
+  copyright: © 2020 Copyright.
+
+  # background image of the landing page
+  background: "images/background1.jpg"
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/ilarele/ilarele.github.io
+
+  # specify whether you want to write blog post or not
+  enableBlogPost: false
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  # customMenus:
+  # - name: Notes
+  #   url: https://hossainnotes.netlify.app/docs/example/
+
+  # some information about you
+  author:
+    name: "Elena Burceanu"
+    nickname: "Elena"
+    image: "images/profile.jpeg"
+    # give your some contact information. they will be used in the footer
+    contactInfo:
+      email: "eburceanu@bitdefender.com"
+      # phone: 
+    # # a summary of what you do
+    # summary:
+    # - I am a Developer
+    # - I work with Go
+    # - I love to work with some fun projects
+
+  # your designation
+  designation: Computer Vision Researcher
+  # your company information
+  company:
+    name: Bitdefender
+    url: "http://bit-ml.github.io/"
+
+  socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "eburceanu@bitdefender.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/ilarele"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/elena-burceanu-97016539/"
+
+  - name: Twitter
+    icon: "fab fa-twitter"
+    url: "https://twitter.com/ilarele"

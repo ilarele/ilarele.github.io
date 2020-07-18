@@ -1,0 +1,79 @@
+# section information
+section:
+  name: Talks
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your achievements achievements
+talks:
+
+- title: Video Object Segmentation over Space and Time
+  when: January 2020
+  where: Bitdefender TechDays, Romania
+  image: 
+  summary:
+  link: "presentations/video_object_segmentation.pptx"
+- title: Unsupervised Object Segmentation in Video
+  when: "April 2019"
+  where: Computer Vision Seminar, Institute of Mathematics of the Romanian Academy
+  where_link: "https://sites.google.com/site/bucharestcomputervision/past-presentations"
+  image: images/achievements/sport.jpg
+  link: "presentations/video_segmentation.pdf"
+  summary:
+- title: Recent Approaches in General Object Tracking
+  when: "October 2019"
+  where: Bucharest Deep Learning Meetup
+  where_link: "https://www.meetup.com/Bucharest-Deep-Learning/"
+  image: images/achievements/sport.jpg
+  link: "https://github.com/ilarele/tracking-paper-notes"
+  summary:
+- title: Video Understanding in Bitdefender Computer Vision Lab
+  when: February 2019
+  where: EEML Workshop 2019, Timisoara, Romania
+  where_link: "https://workshops.eeml.eu/previous-editions/tmlw-2019"
+  image: images/achievements/presenter.jpg
+  link: "presentations/EEML_Timisoara.key"
+- title: Learning a Robust Society of Tracking Parts using Co-occurrence Constraints
+  when: "April 2018"
+  where: Computer Vision Reading Group, Institute of Mathematics of the Romanian Academy
+  where_link: "https://sites.google.com/site/bucharestcomputervision/past-presentations"
+  image: 
+  link: "presentations/stp.pdf"
+  summary:
+- title: Learning a Robust Society of Tracking Parts
+  when: June 2017
+  where: RAAI 2017 Workshop, Romania
+  where_link: "https://conferences.unibuc.ro/raai2019/"
+  image:
+  link: "presentations/society_tracker.key"
+  summary:
+- title: "Tracking solutions: KCF and Struck"
+  when: "April 2017"
+  where: Computer Vision Reading Group, Institute of Mathematics of the Romanian Academy
+  where_link: "https://sites.google.com/site/bucharestcomputervision/past-presentations"
+  image: images/achievements/sport.jpg
+  link: "presentations/trackers.pdf" 
+  summary:
+- title: The landscape of the cost function in a neural network
+  when: "October 2016"
+  where: Bucharest Deep Learning Meetup
+  where_link: "https://www.meetup.com/Bucharest-Deep-Learning/"
+  image: 
+  link: "presentations/landscape.pdf"
+  summary:
+- title: Adversarial examples
+  when: "October 2016"
+  where: Computer Vision Reading Group, Institute of Mathematics of the Romanian Academy
+  where_link: "https://sites.google.com/site/bucharestcomputervision/past-presentations"
+  image: images/achievements/sport.jpg
+  summary:
+- title: AlphaGo
+  when: "June 2016"
+  where: Bucharest Deep Learning Meetup
+  where_link: "https://www.meetup.com/Bucharest-Deep-Learning/"
+  image: 
+  link: "presentations/alphago.pdf"
+  summary:
