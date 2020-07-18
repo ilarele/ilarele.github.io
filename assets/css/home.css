@@ -12,14 +12,15 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
   background-size: cover;
   /* box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3); */
 }
+
 
 .content {
   position: relative; 
