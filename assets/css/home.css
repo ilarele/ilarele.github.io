@@ -60,6 +60,10 @@
   animation: bounce 2s infinite;
 }
 
+.padding-jos {
+  margin-bottom: 20px;
+}
+
 @keyframes bounce {
   0%,
   20%,
