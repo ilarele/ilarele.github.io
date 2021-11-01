@@ -210,7 +210,7 @@ if (!doNotTrack) {
       <div class="col-sm-4">
         <div class="d-flex col">
           
-          <img class="card-img-top img-fluid" src="images/projects/paper-cshift.png" alt="Unsupervised Domain Adaptation through Iterative Consensus Shift in a Multi-Task Graph" />
+          <img class="card-img-top img-fluid" src="images/projects/paper-cshift.png" alt="Self-Supervised Learning in Multi-Task Graphs through Iterative Consensus Shift" />
           
         </div>
       </div>
@@ -218,19 +218,38 @@ if (!doNotTrack) {
       
       <div class="col-sm-8">
         <div class="card-header">
-          <h3 class="card-title"><a class="" href="https://arxiv.org/abs/2103.14417">Unsupervised Domain Adaptation through Iterative Consensus Shift in a Multi-Task Graph</a></h3>
+          <h3 class="card-title"><a class="" href="https://arxiv.org/abs/2103.14417">Self-Supervised Learning in Multi-Task Graphs through Iterative Consensus Shift</a></h3>
           <div class="my-card-authors">
             Emanuela Haller*, Elena Burceanu*, Marius Leordeanu
 
             <div class="my-card-sub-title">
-              under review
+              BMVC 2021
             </div>
           </div>
         </div>
 
         <div class="card-body">
-          <p>Babies learn with very little supervision by observing the surrounding world. They synchronize the feedback from all their senses and learn to maintain consistency and stability among their internal states. Such observations inspired recent works in multi-task and multi-modal learning, but existing methods rely on expensive manual supervision. In contrast, our proposed multi-task graph, with consensus shift learning, relies only on pseudo-labels provided by expert models. In our graph, every node represents a task, and every edge learns to transform one input node into another. Once initialized, the graph learns by itself on virtually any novel target domain. An adaptive selection mechanism finds consensus among multiple paths reaching a given node and establishes the pseudo-ground truth at that node. Such pseudo-labels, given by ensemble pathways in the graph, are used during the next learning iteration when single edges distill this distributed knowledge. We validate our key contributions experimentally and demonstrate strong performance on the Replica dataset, superior to the very few published methods on multi-task learning with minimal supervision.</p>
-          
+          <p>The human ability to synchronize the feedback from all their senses inspired recent works in multi-task and multi-modal learning. While these works rely on expensive supervision, our multi-task graph requires only pseudo-labels from expert models. Every graph node represents a task, and each edge learns between tasks transformations. Once initialized, the graph learns self-supervised, based on a novel consensus shift algorithm that intelligently exploits the agreement between graph pathways to generate new pseudo-labels for the next learning cycle. We demonstrate significant improvement from one unsupervised learning iteration to the next, outperforming related recent methods in extensive multi-task learning experiments on two challenging datasets.</p>
+          <span class="float-right">
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/cshift/presentation/3min.mp4" target="#">
+              Video</a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://docs.google.com/presentation/d/1ZaiLD0E9lRD-3mKLGZMVrZeSUg1xuc-qgE52i4B0UWg/edit?usp=sharing" target="#">
+              Presentation</a>
+            
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/cshift" target="#">
+              Code </a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://arxiv.org/abs/2103.14417" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
@@ -253,19 +272,32 @@ if (!doNotTrack) {
       
       <div class="col-sm-8">
         <div class="card-header">
-          <h3 class="card-title"><a class="" href="https://arxiv.org/abs/2104.05591">DATE: Detecting Anomalies in Text via Self-Supervision of Transformers</a></h3>
+          <h3 class="card-title"><a class="" href="https://aclanthology.org/2021.naacl-main.25.pdf">DATE: Detecting Anomalies in Text via Self-Supervision of Transformers</a></h3>
           <div class="my-card-authors">
             Andrei Manolache, Florin Brad and Elena Burceanu
 
             <div class="my-card-sub-title">
-              NAACL 2021
+              NAACL 2021, ICML 2021 - UDL workshop
             </div>
           </div>
         </div>
 
         <div class="card-body">
           <p>Leveraging deep learning models for Anomaly Detection (AD) has seen widespread use in recent years due to superior performances over traditional methods. Recent deep methods for anomalies in images learn better features of normality in an end-to-end self-supervised setting. These methods train a model to discriminate between different transformations applied to visual data and then use the output to compute an anomaly score. We use this approach for AD in text, by introducing a novel pretext task on text sequences. We learn our DATE model end-to-end, enforcing two independent and complementary self-supervision signals, one at the token-level and one at the sequence-level. Under this new task formulation, we show strong quantitative and qualitative results on the 20Newsgroups and AG News datasets. In the semi-supervised setting, we outperform state-of-the-art results by +13.5% and +6.9%, respectively (AUROC). In the unsupervised configuration, DATE surpasses all other methods even when 10% of its training data is contaminated with outliers (compared with 0% for the others).</p>
-          
+          <span class="float-right">
+            
+            
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/date" target="#">
+              Code </a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://aclanthology.org/2021.naacl-main.25.pdf" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
@@ -288,19 +320,35 @@ if (!doNotTrack) {
       
       <div class="col-sm-8">
         <div class="card-header">
-          <h3 class="card-title"><a class="" href="https://arxiv.org/abs/2011.13843">SFTrack&#43;&#43;: A Fast Learnable Spectral Segmentation Approach for Space-Time Consistent Tracking</a></h3>
+          <h3 class="card-title"><a class="" href="http://proceedings.mlr.press/v148/burceanu21a.html">SFTrack&#43;&#43;: A Fast Learnable Spectral Segmentation Approach for Space-Time Consistent Tracking</a></h3>
           <div class="my-card-authors">
             Elena Burceanu
 
             <div class="my-card-sub-title">
-              NeurIPS 2020, Pre-registration Workshop
+              NeurIPS 2020 - Pre-registration workshop, ICCV 2021 - SRVU workshop
             </div>
           </div>
         </div>
 
         <div class="card-body">
           <p>We propose an object tracking method, SFTrack++, that smoothly learns to preserve the tracked object consistency over space and time dimensions by taking a spectral clustering approach over the graph of pixels from the video, using a fast 3D filtering formulation for finding the principal eigenvector of this graph&rsquo;s adjacency matrix. To better capture complex aspects of the tracked object, we enrich our formulation to multi-channel inputs, which permit different points of view for the same input. The channel inputs could be, like in our experiments, the output of multiple tracking methods or other feature maps. After extracting and combining those feature maps, instead of relying only on hidden layers representations to predict a good tracking bounding box, we explicitly learn an intermediate, more refined one, namely the segmentation map of the tracked object. This prevents the rough common bounding box approach to introduce noise and distractors in the learning process. We test our method, SFTrack++, on seven tracking benchmarks: VOT2018, LaSOT, TrackingNet, GOT10k, NFS, OTB-100, and UAV123.</p>
-          
+          <span class="float-right">
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/sftrackpp/blob/main/resources/sftrack%2B%2B.pdf" target="#">
+              Presentation</a>
+            
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/sftrackpp" target="#">
+              Code </a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="http://proceedings.mlr.press/v148/burceanu21a.html" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
@@ -335,7 +383,26 @@ if (!doNotTrack) {
 
         <div class="card-body">
           <p>We formulate object segmentation in video as a graph partitioning problem in space and time, in which nodes are pixels and their relations form local neighborhoods. We claim that the strongest cluster in this pixel-level graph represents the salient object segmentation. We compute the main cluster using a novel and fast 3D filtering technique that finds the spectral clustering solution, namely the principal eigenvector of the graph&rsquo;s adjacency matrix, without building the matrix explicitly - which would be intractable. Our method is based on the power iteration for finding the principal eigenvector of a matrix, which we prove is equivalent to performing a specific set of 3D convolutions in the space-time feature volume.</p>
-          
+          <span class="float-right">
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/ilarele/sfseg/blob/main/resources/sfseg_video.mp4" target="#">
+              Video</a>
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/ilarele/sfseg/blob/main/resources/sfseg_poster.pdf" target="#">
+              Poster</a>
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/ilarele/sfseg" target="#">
+              Code </a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://www.ijcai.org/Proceedings/2020/69" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
@@ -363,14 +430,29 @@ if (!doNotTrack) {
             Elena Burceanu, Marius Leordeanu
 
             <div class="my-card-sub-title">
-              ECCV 2018, Visual Object Tracking workshop
+              ECCV 2018 - Visual Object Tracking workshop
             </div>
           </div>
         </div>
 
         <div class="card-body">
           <p>We propose a deep neural network composed of different parts, which functions as a society of tracking parts. They work in conjunction and learn from each other using co-occurrence constraints that ensure robust inference and learning. Our network is composed of two main pathways. One pathway is more conservative, carefully monitoring a large set of simple tracker parts learned as linear filters over deep feature activation maps. We learn these filters simultaneously in an efficient way, with a single closed-form formulation, for which we propose novel theoretical properties. The second pathway is more progressive. It is learned completely online and thus it is able to better model object appearance changes. The larger set of simpler filter parts offers robustness, while the full deep network learned online provides adaptability to change. Thus, our system has the full benefit of two main approaches in tracking.</p>
-          
+          <span class="float-right">
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="presentations/stp_eccv_prezentation.key" target="#">
+              Presentation</a>
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="posters/stp_poster.pdf" target="#">
+              Poster</a>
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://arxiv.org/abs/1804.01771" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
@@ -405,7 +487,16 @@ if (!doNotTrack) {
 
         <div class="card-body">
           <p>We obtain robustness against background with a tracker model that is composed of many different parts. They are classifiers that respond at different scales and locations. The tracker system functions as a society of parts, each having its own role and level of credibility. Reliable classifiers decide the tracker&rsquo;s next move, while newcomers are first monitored before gaining the necessary level of reliability to participate in the decision process. Some parts that loose their consistency are rejected, while others that show consistency for a sufficiently long time are promoted to permanent roles. The tracker system, as a whole, could also go through different phases, from the usual, normal functioning to states of weak agreement and even crisis.</p>
-          
+          <span class="float-right">
+            
+            
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://arxiv.org/abs/1705.09602" target="#">
+              Paper </a>
+            
+          </span>
         </div>
       </div>
     </div>
