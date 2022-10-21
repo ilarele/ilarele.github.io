@@ -14,20 +14,22 @@ Yellow:  #FFC212
 */
 
 body {
-  background-color: #f9fafc;
-  font-family: "Muli";
+  background-color: #EDEBEB;
+  font-family: 'Roboto';
+  font-size: 12pt;
+  font-weight: 300;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5 {
   color: #1c2d41;
-}
+} */
 
-strong{
-  color: #1c2d41!important;
+strong {
+  color: #1c2d41 !important;
 }
 
 p {
@@ -35,11 +37,11 @@ p {
 }
 
 a {
-  color: #2098d1;
+  color: var(--bluebit);
 }
 
 a:hover {
-  color: #248aaa;
+  color: var(--bluebit);
 }
 
 .btn-dark {
@@ -52,56 +54,56 @@ a:hover {
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #248aaa;
-  border-color: #248aaa;
+  background-color: var(--bluebit);
+  border-color: var(--bluebit);
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
 }
 
 .btn-outline-info {
-  color: #2098d1 !important;
-  border-color: #2098d1 !important;
+  color: var(--bluebit) !important;
+  border-color: var(--bluebit) !important;
 }
 
 .btn-outline-info:hover {
-  background-color: #2098d1 !important;
+  background-color: var(--bluebit) !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info {
-  background-color: #248aaa !important;
+  background-color: var(--bluebit) !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info:hover {
-  background-color: #2098d1 !important;
+  background-color: var(--bluebit) !important;
   color: #e5e9f2 !important;
 }
 
 .bg-white {
-  background-color: #f9fafc !important;
+  background-color: var(--white) !important;
 }
 
 .bg-dimmed {
-  background-color: #e5e9f2;
+  background-color: var(--graybit);
 }
 
 .anchor {
   padding-top: 3.5rem;
 }
 
-img.center{
+img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-img.left{
+img.left {
   display: block;
   margin-right: auto;
 }
 
-img.right{
+img.right {
   display: block;
   margin-left: auto;
 }
@@ -155,20 +157,21 @@ img.right{
 }
 
 .my-card-sub-title {
-  color: #d65130;
-  font-size: 15pt;
+  color: var(--redbit);
+  ;
+  font-size: 12pt;
 }
 
-.company-a  {
+.company-a {
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffecec; */
-  color: #fcd1d1;
+  color: var(--whitebit);
   /* text-shadow: 0px -1px  #ffffff; */
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .company-a:hover {
-  color: #d65130;
+  color: var(--whitebit);
   /* text-shadow: 2px 2px 8px #ffffff; */
   /* font-weight: 1200; */
 }
@@ -177,7 +180,8 @@ img.right{
 
 .my-card-authors {
   /* color: #0038f0cc; */
-  font-size: 15pt;
+  font-size: 12pt;
+  font-weight: 400;
 }
 
 /* --- FOOTER START --- */
@@ -186,8 +190,9 @@ img.right{
 }
 
 .secondary-link {
-  color: #32614f 
+  color: #32614f
 }
+
 .footer {
   color: #8392a5 !important;
   background-color: #1c2d41;
@@ -198,6 +203,7 @@ img.right{
 .footer h5 {
   color: #c0ccda;
 }
+
 .footer a {
   color: #8392a5;
   transition: all 0.3s ease-out;
@@ -253,21 +259,17 @@ img.right{
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) {}
 
 /*  Large devices (desktops, 992px and up) */
 
-@media (max-width: 992px) {
-}
+@media (max-width: 992px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
-@media only screen and (max-width: 768px) {
-}
+@media only screen and (max-width: 768px) {}
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -280,7 +282,7 @@ img.right{
   .skills-section,
   .projects-section,
   .recent-posts-section,
-  .achievements-section{
+  .achievements-section {
     padding-left: 0;
     padding-right: 0;
   }

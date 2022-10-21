@@ -182,7 +182,7 @@ mark {
 }
 
 .next-prev-navigator a {
-  color: #2098d1;
+  color: #006EFF;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
 }

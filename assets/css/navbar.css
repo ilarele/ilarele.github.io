@@ -2,6 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
+  font-size: 12pt;
   width: 100%;
   height: 50px;
   z-index: 99999;
@@ -20,7 +21,7 @@
 
 .initial-navbar .navbar-brand {
   color: #c0ccda;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .initial-navbar li a {
@@ -30,8 +31,8 @@
 .initial-navbar .navbar-nav .active,
 .initial-navbar li a:hover {
   color: #f9fafc;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
 }
 
 .navbar-collapse {
@@ -51,48 +52,47 @@
 .final-navbar {
   background-color: #f9fafc;
   color: #1c2d41;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
 }
 
 .final-navbar .navbar-brand {
   color: #1c2d41;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .final-navbar li a {
   color: #1c2d41;
-  font-weight: 500;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
+  font-weight: 300;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
   border-bottom: 2px solid#F9FAFC;
 }
 
 .final-navbar .navbar-nav .active,
 .final-navbar li a:hover {
-  color: #2098d1;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  border-bottom: 2px solid #2098d1;
+  color: #006EFF;
+  font-weight: 400;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  border-bottom: 2px solid #006EFF;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(34, 136, 168, 0.1) 0%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(34, 136, 168, 0.1) 0%);
 }
 
 .navbar-collapse.show li a,
 .navbar-collapse.collapsing li a {
   color: #1c2d41;
-  font-weight: 500;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
+  font-weight: 300;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
 }
 
 .navbar-collapse.show .navbar-nav .active,
 .navbar-collapse.show .navbar-nav a:hover {
-  color: #2098d1;
+  color: #006EFF;
 }
 
 #top-navbar-divider {
@@ -130,16 +130,13 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) {}
 
 /*  Large devices (desktops, 992px and up) */
 
-@media (max-width: 992px) {
-}
+@media (max-width: 992px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -151,14 +148,14 @@
 
   .initial-navbar .navbar-nav .active,
   .initial-navbar li a:hover {
-    color: #2098d1;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
+    color: #006EFF;
+    transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
-    color: #2098d1;
+    color: #006EFF;
     transition: none;
     -webkit-transition: none;
     border-bottom: none;
@@ -171,13 +168,14 @@
 
   .final-navbar .navbar-collapse.show {
     box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3);
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
   }
 
   .dropdown-divider {
     border-top: 1px solid #c0ccda;
   }
+
   #top-navbar-divider {
     background: rgba(0, 0, 0, 0.6);
     height: auto;
@@ -188,5 +186,4 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media only screen and (max-width: 576px) {
-}
+@media only screen and (max-width: 576px) {}
