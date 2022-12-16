@@ -173,12 +173,17 @@ if (!doNotTrack) {
 
     <span class="float-right text-container ml-auto">
       
-      <a href="files/PhD_ElenaBurceanu.pdf" target="#"><button class="btn btn-outline-info"> My
+      <a href="files/PhD_ElenaBurceanu.pdf" target="#"><button class="btn btn-outline-info">
           PhD Thesis </button></a>
       
+
+      
+      <a href="https://docs.google.com/presentation/d/1K7Tv2sLue-TJICiXdVGXfUVHOlYvgUajDV_bDldD6tI/edit?usp=sharing" target="#"><button class="btn btn-outline-info">
+          PhD Defense </button></a>
       
       
-      <a href="files/CV_ElenaBurceanu.pdf" target="#"><button class="btn btn-outline-info"> My
+      
+      <a href="files/CV_ElenaBurceanu.pdf" target="#"><button class="btn btn-outline-info">
           Resume </button></a>
       
     </span>
@@ -213,6 +218,54 @@ if (!doNotTrack) {
       <div class="col-sm-4">
         <div class="d-flex col">
           
+          <img class="card-img-top img-fluid" src="images/projects/paper-sfseg&#43;&#43;.png" alt="Learning a Fast 3D Spectral Approach to Object Segmentation and Tracking over Space and Time" />
+          
+        </div>
+      </div>
+
+      
+      <div class="col-sm-8">
+        <div class="card-header">
+          <h5 class="card-title"><a class="" href="https://arxiv.org/abs/2212.08058v1">Learning a Fast 3D Spectral Approach to Object Segmentation and Tracking over Space and Time</a></h5>
+          <div class="my-card-authors">
+            Elena Burceanu, Marius Leordeanu
+
+            <div class="my-card-sub-title">
+              arXiv
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <p>We pose video object segmentation as spectral graph clustering in space and time, with one graph node for each pixel and edges forming local space-time neighborhoods. We claim that the strongest cluster in this video graph represents the salient object. We start by introducing a novel and efficient method based on 3D filtering for approximating the spectral solution, as the principal eigenvector of the graph&rsquo;s adjacency matrix, without explicitly building the matrix. This key property allows us to have a fast parallel implementation on GPU, orders of magnitude faster than classical approaches for computing the eigenvector. Our motivation for a spectral space-time clustering approach, unique in video semantic segmentation literature, is that such clustering is dedicated to preserving object consistency over time, which we evaluate using our novel segmentation consistency measure. Further on, we show how to efficiently learn the solution over multiple input feature channels. Finally, we extend the formulation of our approach beyond the segmentation task, into the realm of object tracking. In extensive experiments we show significant improvements over top methods, as well as over powerful ensembles that combine them, achieving state-of-the-art on multiple benchmarks, both for tracking and segmentation.</p>
+          <span class="float-right">
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://sites.google.com/view/sfseg-plus-plus" target="#">
+              Video</a>
+            
+            
+            
+            
+            
+            <a class="btn btn-outline-info btn-sm mb-2" href="https://arxiv.org/abs/2212.08058v1" target="#">
+              Paper </a>
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+      <div class="filtr-item" data-category='all'>
+  <div class="card mt-1 padding-jos">
+    <div class="row align-items-center">
+
+      <div class="col-sm-4">
+        <div class="d-flex col">
+          
           <img class="card-img-top img-fluid" src="images/projects/paper-ea-moco.png" alt="Env-Aware Anomaly Detection: Ignore Style Changes, Stay True to Content!" />
           
         </div>
@@ -234,6 +287,7 @@ if (!doNotTrack) {
         <div class="card-body">
           <p>We introduce a formalization and benchmark for the unsupervised anomaly detection task in the distribution-shift scenario. Our work builds upon the iWildCam dataset, and, to the best of our knowledge, we are the first to propose such an approach for visual data. We empirically validate that environment-aware methods perform better in such cases when compared with the basic Empirical Risk Minimization (ERM). We next propose an extension for generating positive samples for contrastive methods that considers the environment labels when training, improving the ERM baseline score by 8.7%.</p>
           <span class="float-right">
+            
             
             
             
@@ -278,6 +332,7 @@ if (!doNotTrack) {
         <div class="card-body">
           <p>Analyzing the distribution shift of data is a growing research direction in nowadays Machine Learning, leading to emerging new benchmarks that focus on providing a suitable scenario for studying the generalization properties of ML models. The existing benchmarks are focused on supervised learning, and to the best of our knowledge, there is none for unsupervised learning. Therefore, we introduce an unsupervised anomaly detection benchmark with data that shifts over time, meeting the premise of shifting the input distribution: it covers a large time span (10 years), with naturally occurring changes over time (eg users modifying their behavior patterns, and software updates). We first highlight the non-stationary nature of the data, using a basic per-feature analysis, t-SNE, and an Optimal Transport approach for measuring the overall distribution distances between years.</p>
           <span class="float-right">
+            
             
             
             
@@ -334,6 +389,7 @@ if (!doNotTrack) {
             
             
             
+            
             <a class="btn btn-outline-info btn-sm mb-2" href="https://arxiv.org/abs/2112.05125" target="#">
               Paper </a>
             
@@ -375,7 +431,8 @@ if (!doNotTrack) {
           <span class="float-right">
             
             <a class="btn btn-outline-info btn-sm mb-2" href="https://www.bmvc2021-virtualconference.com/conference/papers/paper_0455.html" target="#">
-              Video</a>
+              Website</a>
+            
             
             
             <a class="btn btn-outline-info btn-sm mb-2" href="https://docs.google.com/presentation/d/1ZaiLD0E9lRD-3mKLGZMVrZeSUg1xuc-qgE52i4B0UWg/edit?usp=sharing" target="#">
@@ -432,6 +489,7 @@ if (!doNotTrack) {
           <span class="float-right">
             
             
+            
             <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/date/blob/master/resources/DATE_presentation.pdf" target="#">
               Presentation</a>
             
@@ -486,6 +544,7 @@ if (!doNotTrack) {
           <span class="float-right">
             
             
+            
             <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/bit-ml/sftrackpp/blob/main/resources/sftrack%2B%2B.pdf" target="#">
               Presentation</a>
             
@@ -537,7 +596,8 @@ if (!doNotTrack) {
           <span class="float-right">
             
             <a class="btn btn-outline-info btn-sm mb-2" href="https://github.com/ilarele/sfseg/blob/main/resources/sfseg_video.mp4" target="#">
-              Video</a>
+              Website</a>
+            
             
             
             
@@ -591,6 +651,7 @@ if (!doNotTrack) {
           <span class="float-right">
             
             
+            
             <a class="btn btn-outline-info btn-sm mb-2" href="presentations/stp_eccv_prezentation.key" target="#">
               Presentation</a>
             
@@ -639,6 +700,7 @@ if (!doNotTrack) {
         <div class="card-body">
           <p>We obtain robustness against background with a tracker model that is composed of many different parts. They are classifiers that respond at different scales and locations. The tracker system functions as a society of parts, each having its own role and level of credibility. Reliable classifiers decide the tracker&rsquo;s next move, while newcomers are first monitored before gaining the necessary level of reliability to participate in the decision process. Some parts that loose their consistency are rejected, while others that show consistency for a sufficiently long time are promoted to permanent roles. The tracker system, as a whole, could also go through different phases, from the usual, normal functioning to states of weak agreement and even crisis.</p>
           <span class="float-right">
+            
             
             
             
